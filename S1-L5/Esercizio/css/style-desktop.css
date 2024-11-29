@@ -1,0 +1,193 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* set stile del progetto */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    color: #393d41;
+    border-color: #dee1e3;
+    text-align: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+header{ 
+    background-color: black;
+}
+
+button{
+    font-weight: bold;
+    background-color: #f04c2f;
+}
+
+.testimonianze{
+    background-color: #e22d0e;
+}
+
+footer{
+    background-color: #25a2c3;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+    color: #c8e7f0;
+}
+footer a{
+    color: #c8e7f0;
+    font-weight: 100;
+}
+
+/* header */
+header {
+    height: 15vh;
+    width: 100%;
+    display: block;
+    text-align:left;
+    line-height:15vh;
+}
+
+header img {
+    width: 8em;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 3rem;
+}
+
+/* main */
+article{
+    padding: 10rem;
+}
+.article-1{
+    background: url('../images/banner.jpg') center center / cover no-repeat;
+}
+
+main article h1{
+    font-size: 2.2rem;
+}
+main article p{
+    font-size: 1.2rem;
+    margin-top: 1em;
+}
+main article button{
+    padding: 1rem  2rem;
+    color: white;
+    margin-top: 2em;
+    border: none;
+    border-radius: 5px;
+}
+
+main article h3{
+    font-size: 1.2rem;
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+
+main article div{
+    margin:auto;
+    margin-top: 1rem;
+}
+.inline {
+    text-align: left; 
+    white-space: nowrap;
+}
+
+.inline .left, .inline .right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inline .left {
+    width: 40%; 
+}
+
+.inline .left img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%;
+}
+
+.inline .right {
+    width: 58%; 
+    margin-left: 2%;
+}
+
+
+/* testimonianze */
+.testimonianze h1,.testimonianze h2, .testimonianze h3, .testimonianze p, .testimonianze span{
+    color: white;
+}
+
+#italic , .testimonianze h3, .testimonianze span{
+    font-weight: 100;
+}
+
+#italic{
+    font-style: italic;
+}
+
+.testimonianze h3{
+    margin-bottom: 0.1em;
+}
+.testimonianze p{
+    font-size:2rem;
+}
+/* aside */
+aside {
+    text-align: center;
+}
+
+aside div {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-top: 5rem;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.1px solid #e22d0e;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    height: 30rem;
+}
+
+aside div img {
+    width: 100%;
+    display: block;
+    height: 300px;
+    object-fit: cover; 
+    margin-bottom: 1.2rem;
+}
+aside div h3{
+    margin-bottom: 1.2rem;
+}
+aside div p{
+    margin-bottom: 1.2rem;
+}
+/* footer */
+
+footer h1{
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+footer {
+padding-top: 3rem;
+}
+
+footer hr{
+    margin-top: 2rem;
+    width: 40%;
+    margin-bottom: 2rem;
+    border: 0.1px solid ;
+    border-color:#c8e7f0 ;
+}
+
+span{
+    color: #c8e7f0;
+    font-weight: 100;
+}
